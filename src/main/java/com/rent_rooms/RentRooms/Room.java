@@ -15,6 +15,10 @@ public class Room {
     @Id
     private String roomId;
     private String name;
+    private String city;
+    private double squareMeters; // in m²
+    private double pricePerMonth;
+    private String availability; // "Available" or "Occupied"
     private String state;
     private String address;
 }
