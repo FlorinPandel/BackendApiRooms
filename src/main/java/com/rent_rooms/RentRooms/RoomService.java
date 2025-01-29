@@ -12,4 +12,9 @@ public class RoomService {
     public List<Room> allRooms() {
         return roomRepository.findAll();
     }
+
+    public Room saveRoom(Room room) {
+        return roomRepository.save(room);
+    }
 }
+
